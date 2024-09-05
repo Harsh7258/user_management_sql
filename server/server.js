@@ -9,12 +9,12 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = 5000;
-const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "students",
-});
+// const db = mysql.createConnection({
+//   host: "localhost",
+//   user: "root",
+//   password: "",
+//   database: "students",
+// });
 
 
 app.post("/add_user", (req, res) => {
