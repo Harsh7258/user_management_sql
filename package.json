@@ -1,0 +1,17 @@
+{
+  "name": "user_managment_system",
+  "version": "1.0.0",
+  "description": "User management or Student management system stored in MySql database using React and Nodejs. ",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "react-scripts start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "K. Harsh Naidu",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
